@@ -6,12 +6,18 @@
 console.log(7 / 0 ); //retorna um Infinity
 
 /**
-* por ser  fracamente tipado o js intende operações do tipo string com number
+* por ser  fracamente tipado o js intende operações do tipo string com number com exeção da adição, pq a string tem prefereça,
 * porem so da certo quando o valor na string ser um numero valido Exemplo: interiro "10" ou Flutuante "10.3"
 * caso contrario retornará um "not a number"
 */
 console.log("10" / 2);  
 console.log("Show!" * 2); //gera um NAN
+
+console.log("10" + 2); 
+console.log("10" - 2); 
+console.log("10" * 2); 
+
+
 
 /** 
 * Por questões performáticas varia liguagem aderem a especificaçao IEEE 
