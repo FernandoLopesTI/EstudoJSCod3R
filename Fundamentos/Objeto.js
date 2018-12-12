@@ -17,7 +17,6 @@ console.log(prod1);
 const  prod2 = {
     nome: "Celular 2",
     preco: 1500.99,
-
 }
 
 console.log(prod2);
