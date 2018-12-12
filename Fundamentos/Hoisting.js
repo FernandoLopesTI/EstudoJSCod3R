@@ -1,5 +1,5 @@
 /**
- * Hoisting é o içamento  das variáveis ou função 
+ * Hoisting é o içamento  das variáveis to tipo var 
  * na maioria das outra linguagem os códigos são execultados de cima para baixo, 
  * no js não acontece bem assim, 
  * como exemplo as variáveis  do  tipo var sao como padrao ser uma variável global 
@@ -11,3 +11,5 @@
  var a = 12;
 
  console.log('a = ', a);
+
+
