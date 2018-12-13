@@ -29,4 +29,8 @@ console.log(sobrenome, bemHumorada)
 const {endereco: {logradouro, numero, cep}} = pessoa
 console.log(logradouro, numero, cep)
 
+/**
+ * para desistruturar um dado pelo menos o caminho ate o dado 
+ * tem que esta setado
+ */
 // const { caminhoEnexitente: { atributo1,  atributo2 }} //erro
