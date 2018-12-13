@@ -36,5 +36,8 @@ function soma(a,b){
 }
 
 soma(2,3)(4)
+
 const funcaoRetornada =  soma(2,3)
 funcaoRetornada(4)
+
+
