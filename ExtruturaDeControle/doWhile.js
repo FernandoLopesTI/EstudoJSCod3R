@@ -1,13 +1,14 @@
 function getInteitoAleatorioEntre(min, max){
-    const valor = Math.random() * (max - min ) + min
+    const valor = Math.random() * (max - min) + min
     return Math.floor(valor)
 }
 
-let opcao = 0
+let opcao = -1
 
-while(opcao != -1){
+do {
     opcao = getInteitoAleatorioEntre(-1 , 10)
     console.log(opcao)
-}
+}while(opcao != -1)
 
 console.log('Até a próxima!')
+
