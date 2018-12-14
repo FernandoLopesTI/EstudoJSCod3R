@@ -1,5 +1,5 @@
 /**
- * O conseito léxico de uma função,   nada mais é  que a função carrega com sigo mesma 
+ * O Contexto léxico de uma função,   nada mais é  que a função carrega com sigo mesma 
  * o local onde ela foi declarada 
  * no exemplo abaixo
  * a minhaFincao() loga o valor da variável de nome valor
