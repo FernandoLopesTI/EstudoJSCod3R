@@ -23,7 +23,6 @@ const pessoa = {
 pessoa.falar()
 
 //es2015
-
 const pessoa2 = {
     falar() {
         console.log("Falar ")
