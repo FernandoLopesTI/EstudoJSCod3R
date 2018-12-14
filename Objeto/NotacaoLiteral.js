@@ -2,8 +2,8 @@ const a = 1
 const b = 2
 const c = 3
 
-const obj1 = { a: a, b: b, c: c }
-const obj2 = { a, b, c }
+const obj1 = { a: a, b: b, c: c } //notacao antiga
+const obj2 = { a, b, c } //es02015
 const objMudar = { nomeA: a, nomeB: b, nomeC: c }
 console.log(obj1, obj2, objMudar)
 
